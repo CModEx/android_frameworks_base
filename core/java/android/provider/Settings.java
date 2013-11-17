@@ -2929,6 +2929,18 @@ public final class Settings {
         public static final String STATUS_BAR_BRIGHTNESS_CONTROL = "status_bar_brightness_control";
 
         /**
+         * show clear all recents button
+         *  @hide
+         */
+        public static final String SHOW_CLEAR_RECENTS_BUTTON = "clear_recents_button";
+
+        /**
+         * location of the clear all rectents button
+         * @hide
+         */
+        public static final String CLEAR_RECENTS_BUTTON_LOCATION = "clear_recents_button_location";
+
+        /**
          * Whether to show the IME switcher in the status bar
          * @hide
          */
@@ -3018,7 +3030,6 @@ public final class Settings {
         public static final String MVNO_ROAMING = "mvno_roaming";
 
         /**
-         * Whether to enable quiet hours.
          * @hide
          */
         public static final String QUIET_HOURS_ENABLED = "quiet_hours_enabled";
